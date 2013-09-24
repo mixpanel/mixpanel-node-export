@@ -1,32 +1,20 @@
 {
-    "name": "mixpanel",
-    "version": "0.2.1",
-    "description": "Access the Mixpanel Data API from node.js",
-    "author": {
-        "name": "Tim Trefren",
-        "email": "tim@mixpanel.com",
-        "url": "http://mixpanel.com"
-    },
-    "contributors": [
-	{
-	    "name": "Jonas Huckestein",
-	    "email": "jonas.huckestein@gmail.com",
-	    "url": "http://thezukunft.com"
-	},
-        {
-            "name": "Bob Showalter",
-            "email": "showaltb@gmail.com",
-        }
-    ],
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/mixpanel/mixpanel-node.git"
-    },
-    "dependencies": {
-        "event-stream": "3.0.x"
-    },
-    "engines": {
-        "node": ">= 0.8.0"
-    },
-    "main": "./index.js"
+  "name": "mixpanel",
+  "version": "0.2.1",
+  "description": "Access the Mixpanel Data API from node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mixpanel/mixpanel-node.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "ccb87cc3614e9907d24ec8862c918d49981fed71",
+  "dependencies": {
+    "event-stream": "~3.0.16"
+  }
 }
